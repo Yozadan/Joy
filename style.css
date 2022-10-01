@@ -1,0 +1,134 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: linear-gradient(to right top, #f13333, #d98525, #3244e2, #5faa0a, #eb2ccb);
+}
+
+.header
+{
+	color: white;font-family: 'Bungee Spice';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 90%;border-radius: 15px;
+	background-color:rgb(243, 49, 113);
+	color:black;
+	font-weight: bold;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+h3{
+	font-family: 'The Nautigal';
+	font-size: 50px;
+	color: blueviolet;
+}
+h4{
+	font-family: 'Dancing Script';
+	font-size: 35px;
+color:rgb(138, 221, 29);
+}
+label{
+	font-size: 25px;
+}
+#add{
+	font-family:"Ms Madi" ;
+	font-size: 40px;
+}
+.color_white{
+	font-family: "Satisfy";
+}
+#room_button{
+	font-family: "Aref Ruqaa Ink";
+	background-color: rgb(245, 225, 45);
+	color: black;
+	font-size: 20px;
+}
+#logout{
+	font-family: "Michroma";
+}
+#room_name{
+	font-family:"Cinzel" ;
+	font-size: 17px;
+}
+.mybtn{
+background-color: rgb(195, 52, 238);
+color: rgb(80, 19, 62)
+}
